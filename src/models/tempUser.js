@@ -149,4 +149,4 @@ userSchema.methods.updateLastLogin = function () {
 };
 
 // Safe model export to prevent OverwriteModelError
-module.exports = mongoose.models.User || mongoose.model('User', userSchema);
+module.exports = mongoose.models.user || mongoose.model('User', userSchema);

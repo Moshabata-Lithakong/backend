@@ -1,5 +1,5 @@
 const Order = require('../models/Order');
-const DriverEarnings = require('../models/DriverEarnings');
+const DriverEarnings = require('../models/driverEarnings');
 const mongoose = require('mongoose');
 
 // Get available delivery orders for drivers (orders ready for delivery)
